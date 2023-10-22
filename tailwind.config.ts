@@ -15,6 +15,11 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      title: ["Abhaya Libre", "serif"],
+      intel: ["Inter", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -74,4 +79,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
-
