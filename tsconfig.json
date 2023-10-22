@@ -9,7 +9,8 @@
     /* Path config */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@_components/*": ["./src/pages/_components/*"]
     },
 
     /* Bundler mode */
