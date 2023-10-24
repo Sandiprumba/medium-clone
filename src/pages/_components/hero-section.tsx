@@ -5,11 +5,11 @@ const HeroSection = () => {
   return (
     <Container>
       <div className="flex flex-col text-center gap-y-4 mt-4 ">
-        <div className="font-title text-5xl sm:text-7xl lg:text-8xl font-bold">
+        <div className="font-title text-6xl sm:text-7xl lg:text-8xl font-bold">
           Stay Curius.
         </div>
         <div className="flex flex-col gap-y-8">
-          <p className="font-poppins text-lg">
+          <p className="font-poppins text-xl">
             Discover stories, thinking, and <br /> expertise from writers on any
             topic.
           </p>
