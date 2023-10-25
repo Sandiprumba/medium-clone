@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div
       className={cn(
-        "w-full z-50 bg-amber-400/0 backdrop-blur-sm fixed top-0 transition-colors ease-in-out duration-200",
+        "w-full z-50 bg-amber-400/50 backdrop-blur-sm fixed top-0 transition-colors ease-in-out duration-200",
         scrolled && "bg-white",
       )}
     >
